@@ -43,9 +43,9 @@ def calculateSVGSizes(count):
     """ Calculate the size of the green half based off the length of count """
     text = str(count)
     sizes = {
-        'width' : 80,
-        'recWidth' : 50,
-        'textX' : 55
+        'width' : 120,
+        'recWidth' : 60,
+        'textX' : 90
     }
     if len(text) > 5:
         sizes['width'] += 6 * (len(text) - 5)
