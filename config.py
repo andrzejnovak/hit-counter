@@ -10,7 +10,7 @@ SVG_TEMPLATE = """<?xml version="1.0"?>
 <rect rx="3" width="80" height="20" fill="transparent"/>
 	<g fill="#fff" text-anchor="middle"
     font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
-	    <text x="15" y="14">hits</text>
+	    <text x="15" y="14">Imports</text>
 	    <text x="{textX}" y="14">{count}</text>
 	</g>
 <!-- This count is for the url: {url} -->
